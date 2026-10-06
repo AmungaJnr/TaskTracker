@@ -29,8 +29,8 @@ import androidx.compose.ui.unit.dp
           floatingActionButton = {
               ExtendedFloatingActionButton(
                   onClick = onAddClick,
-                  containerColor = MaterialTheme.colorScheme.primary,
-                  contentColor = MaterialTheme.colorScheme.onPrimary
+                  containerColor = MaterialTheme.colorScheme.secondary,
+                  contentColor = MaterialTheme.colorScheme.onSecondary
               ) {
                   Text("+ Add task")
               }
